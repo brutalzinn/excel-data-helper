@@ -3,6 +3,12 @@
 ## Objetive: Read a input test.csv, request a api about a especify column, read data from api response and write as test_out.csv"# excel-data-helper" 
 
 
+The api-test has default port to 3001.
+Soo, you need to configure you postman like this:
+
+# Context
+
+You have a Excel with documents and you need to do a api request to handle the data. The api responds with the new data and i need to save this as csv.
 # Setup
 
 1. Create a enviroment to install pip packages.
