@@ -6,6 +6,10 @@
 The api-test has default port to 3001.
 Soo, you need to configure you postman like this:
 
+![Postman print](/docs//imgs/postman_view.png "postman print")
+
+
+
 # Context
 
 You have a Excel with documents and you need to do a api request to handle the data. The api responds with the new data and i need to save this as csv.
