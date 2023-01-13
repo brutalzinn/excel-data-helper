@@ -1,0 +1,11 @@
+
+-- TABLE TO HELP DATA SAVES
+
+CREATE TABLE testTable (
+     id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     name CHAR(30) NOT NULL,
+   	creatAt datetime DEFAULT CURRENT_TIMESTAMP,
+  	updateAt datetime DEFAULT CURRENT_TIMESTAMP,
+
+     PRIMARY KEY (id)
+);
